@@ -1,6 +1,4 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 
 const serviceList = [
   {
@@ -50,7 +48,6 @@ const Services = () => {
               </CardHeader>
               <CardContent className="flex-grow flex flex-col">
                 <p className="text-muted-foreground flex-grow">{service.description}</p>
-                <Button variant="link" className="p-0 mt-4 self-start">Learn More &rarr;</Button>
               </CardContent>
             </Card>
           ))}
